@@ -40,9 +40,9 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jvoltci/scree"
-Documentation = "https://jvoltci.github.io/scree/"
-Issues = "https://github.com/jvoltci/scree/issues"
+Homepage = "https://github.com/lognjais/scree"
+Documentation = "https://lognjais.github.io/scree/"
+Issues = "https://github.com/lognjais/scree/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

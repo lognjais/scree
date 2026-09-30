@@ -1,8 +1,8 @@
 site_name: scree
 site_description: Variable-length tensors with Triton kernels at 1.6× of FlashAttention-2. NumPy / PyTorch / MLX / JAX backends.
-site_url: https://jvoltci.github.io/scree/
-repo_url: https://github.com/jvoltci/scree
-repo_name: jvoltci/scree
+site_url: https://lognjais.github.io/scree/
+repo_url: https://github.com/lognjais/scree
+repo_name: lognjais/scree
 edit_uri: edit/master/docs/
 
 theme:
@@ -138,7 +138,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jvoltci/scree
+      link: https://github.com/lognjais/scree
       name: GitHub
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/scree/

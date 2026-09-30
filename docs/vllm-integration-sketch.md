@@ -107,6 +107,6 @@ If both teams are open to this:
 
 ## Contact
 
-This document is `docs/vllm-integration-sketch.md` in the scree repo. Issues, comments, and counter-proposals welcome at <https://github.com/jvoltci/scree/discussions>.
+This document is `docs/vllm-integration-sketch.md` in the scree repo. Issues, comments, and counter-proposals welcome at <https://github.com/lognjais/scree/discussions>.
 
 — scree maintainer

@@ -15,9 +15,9 @@ Variable-length tensors as a first-class type. Triton kernels at **1.6× of Flas
 <div class="badges" markdown>
 [![PyPI](https://img.shields.io/pypi/v/scree.svg?style=flat-square&color=1e3a5f)](https://pypi.org/project/scree/)
 [![Python](https://img.shields.io/pypi/pyversions/scree.svg?style=flat-square&color=1e3a5f)](https://pypi.org/project/scree/)
-[![License](https://img.shields.io/pypi/l/scree.svg?style=flat-square&color=1e3a5f)](https://github.com/jvoltci/scree/blob/master/LICENSE)
-[![CI](https://github.com/jvoltci/scree/actions/workflows/ci.yml/badge.svg)](https://github.com/jvoltci/scree/actions/workflows/ci.yml)
-[![Stars](https://img.shields.io/github/stars/jvoltci/scree.svg?style=social)](https://github.com/jvoltci/scree)
+[![License](https://img.shields.io/pypi/l/scree.svg?style=flat-square&color=1e3a5f)](https://github.com/lognjais/scree/blob/master/LICENSE)
+[![CI](https://github.com/lognjais/scree/actions/workflows/ci.yml/badge.svg)](https://github.com/lognjais/scree/actions/workflows/ci.yml)
+[![Stars](https://img.shields.io/github/stars/lognjais/scree.svg?style=social)](https://github.com/lognjais/scree)
 </div>
 
 </div>
@@ -35,7 +35,7 @@ out = varlen_attention(arr, arr, arr, causal=True)
 ```
 
 [Get started →](getting-started.md){ .md-button .md-button--primary }
-[GitHub →](https://github.com/jvoltci/scree){ .md-button }
+[GitHub →](https://github.com/lognjais/scree){ .md-button }
 [PyPI →](https://pypi.org/project/scree/){ .md-button }
 
 ## At a glance
@@ -97,11 +97,11 @@ incompatible representation. scree is the typed primitive that bridges them:
 
 ## Examples
 
-- [01 — Quickstart](https://github.com/jvoltci/scree/blob/master/examples/01_quickstart.py): pack/unpack + varlen attention in 6 lines
-- [02 — No-pad transformer](https://github.com/jvoltci/scree/blob/master/examples/02_no_pad_transformer.py): full pre-norm block, zero padding
-- [03 — Training step with autograd](https://github.com/jvoltci/scree/blob/master/examples/03_train_step.py): loss drops 80× over 30 steps
-- [04 — HuggingFace compat](https://github.com/jvoltci/scree/blob/master/examples/04_hf_compat.py): bit-exact migration recipe
-- [05 — Multimodal interleaved](https://github.com/jvoltci/scree/blob/master/examples/05_multimodal_interleaved.py): text + image-patch sequences in one Array
+- [01 — Quickstart](https://github.com/lognjais/scree/blob/master/examples/01_quickstart.py): pack/unpack + varlen attention in 6 lines
+- [02 — No-pad transformer](https://github.com/lognjais/scree/blob/master/examples/02_no_pad_transformer.py): full pre-norm block, zero padding
+- [03 — Training step with autograd](https://github.com/lognjais/scree/blob/master/examples/03_train_step.py): loss drops 80× over 30 steps
+- [04 — HuggingFace compat](https://github.com/lognjais/scree/blob/master/examples/04_hf_compat.py): bit-exact migration recipe
+- [05 — Multimodal interleaved](https://github.com/lognjais/scree/blob/master/examples/05_multimodal_interleaved.py): text + image-patch sequences in one Array
 
 ## The name
 
@@ -112,5 +112,5 @@ fitted by their irregularity, not despite it.
 ---
 
 <p style="text-align: center; opacity: 0.7; font-size: 0.9em;">
-v0.0.1 on PyPI. Apache-2.0. <a href="https://github.com/jvoltci/scree">Source on GitHub</a> · <a href="faq/">FAQ</a> · <a href="https://github.com/jvoltci/scree/discussions">Discussions</a> · <a href="https://github.com/jvoltci/scree/issues">Issues</a>
+v0.0.1 on PyPI. Apache-2.0. <a href="https://github.com/lognjais/scree">Source on GitHub</a> · <a href="faq/">FAQ</a> · <a href="https://github.com/lognjais/scree/discussions">Discussions</a> · <a href="https://github.com/lognjais/scree/issues">Issues</a>
 </p>

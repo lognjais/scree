@@ -5,19 +5,19 @@
 <p align="center">
   <a href="https://pypi.org/project/scree/"><img src="https://img.shields.io/pypi/v/scree.svg" alt="PyPI version"></a>
   <a href="https://pypi.org/project/scree/"><img src="https://img.shields.io/pypi/pyversions/scree.svg" alt="Python versions"></a>
-  <a href="https://github.com/jvoltci/scree/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/scree.svg" alt="License"></a>
-  <a href="https://github.com/jvoltci/scree/actions/workflows/ci.yml"><img src="https://github.com/jvoltci/scree/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/jvoltci/scree/actions/workflows/docs.yml"><img src="https://github.com/jvoltci/scree/actions/workflows/docs.yml/badge.svg" alt="Docs"></a>
-  <a href="https://github.com/jvoltci/scree/stargazers"><img src="https://img.shields.io/github/stars/jvoltci/scree.svg?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/lognjais/scree/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/scree.svg" alt="License"></a>
+  <a href="https://github.com/lognjais/scree/actions/workflows/ci.yml"><img src="https://github.com/lognjais/scree/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/lognjais/scree/actions/workflows/docs.yml"><img src="https://github.com/lognjais/scree/actions/workflows/docs.yml/badge.svg" alt="Docs"></a>
+  <a href="https://github.com/lognjais/scree/stargazers"><img src="https://img.shields.io/github/stars/lognjais/scree.svg?style=social" alt="GitHub stars"></a>
 </p>
 
 <h3 align="center">A cross-framework ragged tensor primitive for variable-length sequence data.</h3>
 
 <p align="center">
-  <a href="https://jvoltci.github.io/scree/"><b>📚 Documentation</b></a> ·
+  <a href="https://lognjais.github.io/scree/"><b>📚 Documentation</b></a> ·
   <a href="https://pypi.org/project/scree/"><b>📦 PyPI</b></a> ·
-  <a href="https://github.com/jvoltci/scree/discussions"><b>💬 Discussions</b></a> ·
-  <a href="https://github.com/jvoltci/scree/issues"><b>🐛 Issues</b></a>
+  <a href="https://github.com/lognjais/scree/discussions"><b>💬 Discussions</b></a> ·
+  <a href="https://github.com/lognjais/scree/issues"><b>🐛 Issues</b></a>
 </p>
 
 
@@ -163,16 +163,16 @@ pip install "scree[jax]"       # + JAX backend
 
 ## Documentation
 
-Full rendered site at **<https://jvoltci.github.io/scree/>**.
+Full rendered site at **<https://lognjais.github.io/scree/>**.
 
-- [**Getting started**](https://jvoltci.github.io/scree/getting-started/) — install, first program, common patterns
-- [**Concepts**](https://jvoltci.github.io/scree/concepts/) — the mental model behind `values + offsets + ragged_dim`
-- [**API reference**](https://jvoltci.github.io/scree/api/) — every public function and class
-- [**Bridges & migration**](https://jvoltci.github.io/scree/bridges/) — moving from `torch.nested`, HuggingFace, FlashAttention
-- [**Kernels**](https://jvoltci.github.io/scree/kernels/) — reference and Triton kernel design
-- [**Architecture**](https://jvoltci.github.io/scree/architecture/) — internal layout for contributors
-- [**Benchmarks**](https://jvoltci.github.io/scree/benchmarks/) — methodology and reproduction
-- [**FAQ**](https://jvoltci.github.io/scree/faq/)
+- [**Getting started**](https://lognjais.github.io/scree/getting-started/) — install, first program, common patterns
+- [**Concepts**](https://lognjais.github.io/scree/concepts/) — the mental model behind `values + offsets + ragged_dim`
+- [**API reference**](https://lognjais.github.io/scree/api/) — every public function and class
+- [**Bridges & migration**](https://lognjais.github.io/scree/bridges/) — moving from `torch.nested`, HuggingFace, FlashAttention
+- [**Kernels**](https://lognjais.github.io/scree/kernels/) — reference and Triton kernel design
+- [**Architecture**](https://lognjais.github.io/scree/architecture/) — internal layout for contributors
+- [**Benchmarks**](https://lognjais.github.io/scree/benchmarks/) — methodology and reproduction
+- [**FAQ**](https://lognjais.github.io/scree/faq/)
 
 ## Contributing
 
